@@ -14,7 +14,9 @@ int go(int matrix[53][530], int x, int y, int fx, int fy) {
 		matrix[x][y] = -1;
 		return 1;
 	}
+
 	int isFound = 0;
+
 	for (int i = 0; i < 4; i++) {
 		int dx = x + dl[i], dy = y + dc[i];
 		if (vis[dx][dy] == 0 && matrix[dx][dy] == 0) {
