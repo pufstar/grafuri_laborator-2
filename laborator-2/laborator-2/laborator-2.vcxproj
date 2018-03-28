@@ -120,6 +120,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <Text Include="labirint.txt" />
+    <Text Include="sol.txt" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Source.cpp" />
